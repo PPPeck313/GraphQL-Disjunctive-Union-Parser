@@ -1,0 +1,17 @@
+input Input1 {
+  a1: ID
+  b1: [ID!]
+  c1: Int
+  d1: [Int!]
+  e1: String
+  f1: [String!]
+  g1: Boolean
+  h1: [Boolean!]
+}
+
+input Input2 {
+  a2: ID
+  b2: [ID!]
+  d2: [Int!]
+  f2: [String!]
+}

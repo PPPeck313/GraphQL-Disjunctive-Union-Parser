@@ -1,0 +1,6 @@
+#input Input2 {
+#  c2: Int
+#  e2: String
+#  g2: Boolean
+#  h2: [Boolean!]
+#}
