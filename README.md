@@ -5,7 +5,7 @@ Run:</br>
 
 Returns the disjunctive union of 2 GraphQL files:
 
-Input 1:</br>
+Input 1 (schema.graphql):</br>
 ```
 input Input1 {
   a1: ID
@@ -30,7 +30,7 @@ input Input2 {
 }
 ```
 
-Input 2:</br>
+Input 2 (schema-pruned.graphql):</br>
 ```
 #input Input2 {
 #  c2: Int
@@ -40,7 +40,7 @@ Input 2:</br>
 #}
 ```
 
-Output:</br>
+Output (schema-out.graphql):</br>
 ```
 input Input1 {
   a1: ID
