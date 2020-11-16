@@ -1,7 +1,9 @@
 # GraphQL-Disjunctive-Union-Parser
 
-Run:</br>
-```./main.py```
+1. Replace schema.graphql with the entirety of your schema</br>
+2. Replace schema-pruned.graphql with the fields nested inside the objects you want them removed from (#'s optional)</br>
+3. Run: ```./main.py```
+4. Receive disjunctive union of the 2 files in schema-out.graphql</br></br>
 
 Returns the disjunctive union of 2 GraphQL files:
 
