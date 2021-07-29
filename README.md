@@ -1,5 +1,7 @@
 # GraphQL-Disjunctive-Union-Parser
 
+This tool was created to combat schemas with birdirectional relationships that certain code gen libraies would spin on forever. It became part of our workflow to pull the schema and drop unused fields that would cause recursive behavior by hand. This tool significantly improved our process
+
 1. Replace schema.graphql with the entirety of your schema</br>
 2. Replace schema-pruned.graphql with the fields nested inside the objects you want them removed from (#'s optional)</br>
 3. Run: ```./main.py```
